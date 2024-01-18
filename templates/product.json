@@ -1,0 +1,290 @@
+{
+  "wrapper": "div.mb__60",
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "size": 32
+          }
+        },
+        "9734ebe8-62a8-47b0-80e9-51bc9d6b6361": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "disabled": true,
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "pricereview": {
+          "type": "pricereview",
+          "settings": {
+            "price": "0",
+            "txt_sale": "0",
+            "rating": true,
+            "review_liquid": "<div class=\"yotpo bottomLine\"\n    data-appkey=\"AIo2rViQrxhUcSpOBvMbnuhxyDVAE3NcIY9Bxu4G\"\n    data-domain=\"{{shop.permanent_domain | escape }}\"\n    data-product-id=\"{{ product.id }}\"\n    data-product-models=\"{{ product.id }}\"\n    data-name=\"{{ product.title | escape }}\"\n    data-url=\"{{ shop.url }}{{ product.url }}\"\n    data-image-url=\"{{ product.featured_image | product_img_url: 'large' |replace: '?', '%3F' | replace: '&','%26'}}\"\n    data-description=\"{{ product.description | escape }}\"\n    data-bread-crumbs=\"{% for tag in product.tags %}{{ tag | escape }};{% endfor %}\">\n<\/div>"
+          }
+        },
+        "7645693e-fa3d-4d09-b0cf-5e587d1ec777": {
+          "type": "dimensions",
+          "settings": {
+          }
+        },
+        "des": {
+          "type": "des",
+          "disabled": true,
+          "settings": {
+            "des": "2",
+            "text": "",
+            "length": 31,
+            "readm": false,
+            "readm_txt": "Read more"
+          }
+        },
+        "frm": {
+          "type": "frm",
+          "settings": {
+            "ani": "none",
+            "time": 6,
+            "btn_des": "3",
+            "btn_txt": "3",
+            "swatch_design": "2",
+            "style_color": "2",
+            "swatch_style": "1",
+            "swatch_size": "exlarge",
+            "show_qty": false,
+            "btn_atc_full": false,
+            "enable_payment_btn": false
+          }
+        },
+        "size": {
+          "type": "size",
+          "disabled": true,
+          "settings": {
+            "size_chart": "3",
+            "pos_sizeg": "1",
+            "sc_type": "1",
+            "page": "",
+            "size_ck": "",
+            "delivery": false,
+            "page_dr": "",
+            "ask": false
+          }
+        },
+        "meta": {
+          "type": "meta",
+          "disabled": true,
+          "settings": {
+            "show_pr_vendor": true,
+            "show_sku": true,
+            "show_barcode": false,
+            "show_available": true,
+            "show_category_product": true,
+            "show_tag_product": true
+          }
+        },
+        "social": {
+          "type": "social",
+          "disabled": true,
+          "settings": {
+            "class": "tc"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "9734ebe8-62a8-47b0-80e9-51bc9d6b6361",
+        "pricereview",
+        "7645693e-fa3d-4d09-b0cf-5e587d1ec777",
+        "des",
+        "frm",
+        "size",
+        "meta",
+        "social"
+      ],
+      "settings": {
+        "pr_layout": "default",
+        "design_products": "1",
+        "size_img_pr": "2",
+        "nav_img_pr": "medium",
+        "use_sticky_des": false,
+        "ratio_img_main": "ratio_imgtrue",
+        "img_size_main": "nt_contain",
+        "img_pos_main": "8",
+        "ratio_img_thumb": "ratio_imgtrue",
+        "img_size_thumb": "nt_contain",
+        "img_pos_thumb": "8",
+        "pr_sidebar": "none",
+        "pr_size_sidebar": "2",
+        "breadcrumb_pr": true,
+        "back_next_pr": true,
+        "auto": false
+      }
+    },
+    "product-description": {
+      "type": "pr_description",
+      "blocks": {
+        "des": {
+          "type": "des",
+          "settings": {
+            "title": "Description"
+          }
+        },
+        "add": {
+          "type": "add",
+          "disabled": true,
+          "settings": {
+            "title": "Additional Information"
+          }
+        },
+        "rivui": {
+          "type": "rivui",
+          "disabled": true,
+          "settings": {
+            "title": "Reviews",
+            "review_liquid": ""
+          }
+        },
+        "318bc731-df16-4eef-9626-045a41982266": {
+          "type": "html",
+          "settings": {
+            "title": "Custom tab",
+            "page": ""
+          }
+        },
+        "337b4dff-be86-4c6c-be82-7acf3d76872b": {
+          "type": "custom_fields",
+          "settings": {
+            "title": "Sizes",
+            "custom_field_id": "sizes"
+          }
+        },
+        "32953e71-2f00-4c9c-91db-eea4910aedbf": {
+          "type": "custom_fields",
+          "settings": {
+            "title": "Product files",
+            "custom_field_id": "product_files"
+          }
+        }
+      },
+      "block_order": [
+        "des",
+        "add",
+        "rivui",
+        "318bc731-df16-4eef-9626-045a41982266",
+        "337b4dff-be86-4c6c-be82-7acf3d76872b",
+        "32953e71-2f00-4c9c-91db-eea4910aedbf"
+      ],
+      "settings": {
+        "des_pr_design": "1",
+        "show": true,
+        "bgcl": "#fafafa",
+        "bgclmb": "#fafafa",
+        "des_w": "1",
+        "des_mb": "2",
+        "auto": true,
+        "mg": "30px,,30px,",
+        "mg_mb": "0,,0,"
+      }
+    },
+    "165575246045f2971a": {
+      "type": "apps",
+      "blocks": {
+        "df7893b6-ed1e-4239-903d-85c5a32f15e1": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "df7893b6-ed1e-4239-903d-85c5a32f15e1"
+      ],
+      "settings": {
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show": true,
+        "title": "You may also like",
+        "sub_title": "Discover our newest products and collections",
+        "sub_font": "2",
+        "style_title": "title_1",
+        "ic_tt": "gem",
+        "show_clpr": false,
+        "display_type": "3",
+        "limit": 6,
+        "space": 30,
+        "col_pr": "4",
+        "col_pr_tb": "4",
+        "col_pr_mb": "6",
+        "pr_des": "1",
+        "show_vendor": false,
+        "use_cdt": false,
+        "round_cd": false,
+        "cdt_des": "1",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "button": true,
+        "btn_vi": "1",
+        "btn_owl": "1",
+        "btn_color": "0",
+        "dot": false,
+        "dot_owl": "1",
+        "dot_color": "1",
+        "use_eq_height": false,
+        "image_ratio": "ratio_nt",
+        "image_size": "nt_cover",
+        "image_position": "8"
+      }
+    },
+    "recently-viewed-products": {
+      "type": "recently_viewed",
+      "settings": {
+        "show": true,
+        "unavailable_prs": "show",
+        "title": "Recently viewed products",
+        "sub_title": "",
+        "sub_font": "2",
+        "style_title": "title_1",
+        "ic_tt": "gem",
+        "show_clpr": false,
+        "limit": 6,
+        "sortby": "3",
+        "space": 30,
+        "col_pr": "4",
+        "col_pr_tb": "4",
+        "col_pr_mb": "6",
+        "pr_des": "1",
+        "show_vendor": false,
+        "use_cdt": false,
+        "round_cd": false,
+        "cdt_des": "1",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "button": true,
+        "btn_vi": "1",
+        "btn_owl": "1",
+        "btn_color": "0",
+        "dot": false,
+        "dot_owl": "1",
+        "dot_color": "1",
+        "use_eq_height": false,
+        "image_ratio": "ratio_nt",
+        "image_size": "nt_cover",
+        "image_position": "8"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-description",
+    "165575246045f2971a",
+    "product-recommendations",
+    "recently-viewed-products"
+  ]
+}

@@ -1,0 +1,124 @@
+{% comment %}
+  Styleguide styles only here
+{% endcomment %}
+<style>
+  .section__content--logo {
+    border: 1px #7B61Ff dashed;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+  .section__content--colors {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -25px;
+    margin-right: -25px;
+  }
+
+  .item-color {
+    padding: 15px 25px;
+    text-align: center;
+  }
+
+  .item-color__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    height: 125px;
+    margin-bottom: 5px;
+    font-size: 21px;
+    font-weight: 600;
+    color: var(--color-white);
+  }
+
+  .item-typography {
+    margin-top: 60px;
+  }
+
+  .section__content--buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    border: 1px #7B61Ff dashed;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 20px;
+  }
+</style>
+
+<div class="container mt__60 mb__60 rtet4">{{ page.content }}</div>
+<div class="container">
+  <!-- Logo Section -->
+  <section class="section section--logo">
+    <div class="section__header">
+      <h2 class="section__heading">Logo</h2>
+    </div>
+    <div class="section__content section__content--logo">
+      {%- render 'icons' icon: 'logo-white' -%}
+    </div>
+  </section>
+  <!-- /Logo Section -->
+
+  <!-- Colors Section -->
+  {%- assign colors = 'B99450, 000000, 10324B, 4C4E4E, CBC6C1' | split: ', ' -%}
+  {%- assign color_names = 'Gold, Black, Dark Tile, Dark Grey, Warm Grey' | split: ', ' -%}
+  <section class="section">
+    <div class="section__header">
+      <h2 class="section__heading">Colors</h2>
+      <p class="section__desc"><strong>All colors are evaluated according to the WCAG guidelines for color contrast ratios. (ADA Compliant)</strong></p>
+    </div>
+    <div class="section__content section__content--colors">
+      {%- for color in colors -%}
+        <div class="item-color">
+          <span class="item-color__box" style="background-color: #{{ color }};">#{{ color }}</span>
+          <span>{{ color_names[forloop.index0] }}</span>
+        </div>
+      {%- endfor -%}
+    </div>
+  </section>
+  <!-- /Colors Section -->
+
+  <!-- Typography Section -->
+  {%- assign typographys = 'h1, h2, h3, h4, h5, h6, p' | split: ', ' -%}
+  {%- assign font_sizes = '42px, 38px, 32px, 28px, 24px, 22px, 16px' | split: ', ' -%}
+  <section class="section">
+    <div class="section__header">
+      <h2 class="section__heading">Typographys</h2>
+      <p class="section__desc"><strong>Font: Montserrat</strong></p>
+    </div>
+    <div class="section__content">
+      {%- for tag in typographys -%}
+        <div class="item-typography">
+          <{{tag}} class="font-bold">{{ tag }} {{ font_sizes[forloop.index0] }} Bold</{{tag}}>
+          <{{tag}} style="margin-top: 10px;">{{ tag }} {{ font_sizes[forloop.index0] }} Regular</{{tag}}>
+        </div>
+      {%- endfor -%}
+    </div>
+  </section>
+  <!-- /Typography Section -->
+
+  <!-- Buttons Section -->
+  {%- assign buttons = 'primary, secondary, outlined, disabled' | split: ', ' -%}
+  <section class="section">
+    <div class="section__header">
+      <h2 class="section__heading">Button</h2>
+    </div>
+    <div class="section__content section__content--buttons">
+      {%- for button in buttons -%}
+        <div class="item-button">
+          <button class="button button--{{ button }}" {% if button == 'disabled' %}disabled{% endif %}>Generate My quote</button>
+        </div>
+      {%- endfor -%}
+    </div>
+  </section>
+  <!-- /Buttons Section -->
+
+</div>
+
+{%- schema -%}
+{
+  "name": "Styleguide"
+}
+{% endschema %}

@@ -1,0 +1,134 @@
+/*---------------- Product Summary Section CSS -------------------*/
+.variations.style__circle .swatch.is-label .swatch__value_pr {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.variations.style__circle .swatch.is-label .swatch_pr_item {
+  border-radius: 0;
+  padding: 1px;
+  background-color: transparent;
+  color: #000;
+  border: none;
+}
+
+.variations.style__circle .swatch.is-label .swatch_pr_item.is-selected {
+  border: 1px solid #000;
+}
+
+.style_color.size_exlarge .is-color .swatch__value_pr {
+  width: 38px;
+  height: 38px;
+}
+
+.countertop_images {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 5px;
+  margin-bottom: 2.25rem;
+}
+
+.countertop_images .countertop_image {
+  width: 125px;
+  height: 90px;
+  cursor: pointer;
+  border: 3px solid transparent;
+}
+
+.countertop_images .countertop_image.is-selected {
+  border: 3px solid var(--color-dark-tile);
+}
+
+.countertop_images .countertop_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.countertop_selected {
+  font-weight: 500;
+}
+
+.swatch__title {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.swatch__title .nt_name_current {
+  font-weight: 500;
+}
+
+.dimensions {
+  margin-top: 25px;
+}
+
+.dimensions label,
+.countertop-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+[data-js-pdp-download] {
+  display: inline-block;
+  font-weight: 500;
+  margin-top: 14px;
+  text-decoration: underline;
+}
+
+.js-product-samples {
+  order: 3;
+  margin-left: 15px;
+}
+
+/* Product descriptions tab */
+.id_pr_description {
+  background: #faf9f9;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.sp-tab a {
+  color: #b99450;
+}
+
+/* Price */
+.entry-summary .price, .entry-summary .price_range {
+  color: var(--color-gold);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+
+.swatch {
+  margin-bottom: 20px;
+}
+
+.sp-single .flickityt4s-button {
+  display: none !important;
+}
+
+/* ATC */
+@media (min-width: 1025px) {
+  .sp-single .single_add_to_cart_button {
+    min-width: 280px !important;
+    text-transform: capitalize !important;
+  }
+}
+
+.sp-single .variations_button .nt_add_w {
+  border: none;
+}
+
+.sp-single .entry-summary>:not(:last-child) {
+  margin-bottom: 0;
+}
+
+.product-samples-widget__close:hover {
+  background-color: transparent;
+  border-color: transparent;
+}
+

@@ -1,0 +1,474 @@
+{
+  "sections": {
+    "heading": {
+      "type": "about_heading",
+      "blocks": {
+        "39a33984-b9da-413b-b82d-0749581841a8": {
+          "type": "1",
+          "settings": {
+            "title": "About Bemma",
+            "color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "39a33984-b9da-413b-b82d-0749581841a8"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about-banner.png",
+        "bg_height": "big",
+        "parallax": false,
+        "color": "#000000",
+        "overlay": 0,
+        "padding": 33,
+        "paddingmb": 20,
+        "bg_pos": "center center",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover",
+        "bg_att": "scroll"
+      }
+    },
+    "1653057681ffba2032": {
+      "type": "custom_section",
+      "blocks": {
+        "1653057680313293c7-2": {
+          "type": "text",
+          "settings": {
+            "cont_title": "Our Story",
+            "text": "Sit amet venenatis urna cursus eget nunc. Vivamus at augue eget arcu dictum varius duis at consectetur. Tempus imperdiet nulla malesuada pellentesque elit eget gravida cum. Proin fermentum leo vel orci porta non pulvinar. Nulla facilisi cras fermentum odio. Id diam vel quam elementum pulvinar. Faucibus purus in massa tempor. Ornare aenean euismod elementum nisi. Dui ut ornare lectus sit amet est placerat in. Vitae suscipit tellus mauris a diam maecenas. Ornare suspendisse sed nisi lacus sed viverra tellus. Ut ornare lectus sit amet est placerat in egestas. Consectetur lorem donec massa sapien.",
+            "cont_btn_text": "Shop Vanities",
+            "cont_btn_link": "shopify:\/\/collections\/vanities",
+            "founder1_name": "",
+            "founder2_name": "",
+            "content_align": "left",
+            "cl": "6",
+            "cl_tb": "6",
+            "cl_mb": "12"
+          }
+        },
+        "56cf491d-30cb-4eb5-9a48-8d9e89329eb3": {
+          "type": "video",
+          "settings": {
+            "poster_img": "shopify:\/\/shop_images\/about-mission.png",
+            "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0639\/3135\/1296\/files\/Bemma_bathroom.mp4?v=1651839232",
+            "cl": "6",
+            "cl_tb": "6",
+            "cl_mb": "12"
+          }
+        }
+      },
+      "block_order": [
+        "1653057680313293c7-2",
+        "56cf491d-30cb-4eb5-9a48-8d9e89329eb3"
+      ],
+      "settings": {
+        "cus_class": "about_story about_mission about_help",
+        "layout": "container",
+        "cl_bg": "#ffffff",
+        "mg": "",
+        "pd": "110px,15px,50px,15px",
+        "mg_mb": "",
+        "pd_mb": "42px,15px,39px,15px"
+      }
+    },
+    "1653048411c24b237e": {
+      "type": "custom_section",
+      "blocks": {
+        "165304841161f19cc2-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about-mission.png",
+            "wid": "",
+            "cl": "6",
+            "cl_tb": "6",
+            "cl_mb": "12"
+          }
+        },
+        "165304841161f19cc2-2": {
+          "type": "text",
+          "settings": {
+            "cont_title": "Our Mission",
+            "text": "Eget arcu dictum varius duis at consectetur lorem. Viverra tellus in hac habitasse platea dictumst. At erat pellentesque adipiscing commodo elit at imperdiet. Feugiat vivamus at augue eget arcu dictum varius. Fermentum odio eu feugiat pretium nibh. Vel pretium lectus quam id leo. Id volutpat lacus laoreet non. Fermentum posuere urna nec tincidunt praesent semper. Sollicitudin nibh sit amet commodo nulla facilisi nullam. Velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Cras ornare arcu dui vivamus arcu felis. Tellus integer feugiat scelerisque varius morbi enim nunc faucibus. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Scelerisque fermentum dui faucibus in.",
+            "cont_btn_text": "Shop Vanities",
+            "cont_btn_link": "shopify:\/\/collections\/vanities",
+            "founder1_name": "",
+            "founder2_name": "",
+            "content_align": "left",
+            "cl": "6",
+            "cl_tb": "6",
+            "cl_mb": "12"
+          }
+        }
+      },
+      "block_order": [
+        "165304841161f19cc2-1",
+        "165304841161f19cc2-2"
+      ],
+      "settings": {
+        "cus_class": "about_mission about_help",
+        "layout": "container",
+        "cl_bg": "#ffffff",
+        "mg": "",
+        "pd": "50px,15px,,15px",
+        "mg_mb": "",
+        "pd_mb": "39px,15px,,15px"
+      }
+    },
+    "1653031651954d0fa7": {
+      "type": "feature_columns2",
+      "blocks": {
+        "165303165128736d9a-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/handcraft.png",
+            "title": "High-end Finishing",
+            "text": "<p>Distinguished by their refined form and functionality, each vanity is expertly crafted, with a kiln-dried solid wood frame construction to ensure long-lasting quality.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_style": "1",
+            "col_pr": "4",
+            "col_pr_tb": "4",
+            "col_pr_mb": "12"
+          }
+        },
+        "165303165128736d9a-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/idea.png",
+            "title": "Stylish & Functional Storage",
+            "text": "<p>Every vanity features a premium soft-close glide and either Italian marble or premium quartz countertops. 48\"\/60\" models also feature integrated power\/USB outlets.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_style": "1",
+            "col_pr": "4",
+            "col_pr_tb": "4",
+            "col_pr_mb": "12"
+          }
+        },
+        "165303165128736d9a-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/technical-support.png",
+            "title": "Guaranteed Support",
+            "text": "<p>We take great pride in providing you with safe, elegant and durable products. That's why we provide a 5-year product warranty with every BEMMA vanity purchase.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_style": "1",
+            "col_pr": "4",
+            "col_pr_tb": "4",
+            "col_pr_mb": "12"
+          }
+        }
+      },
+      "block_order": [
+        "165303165128736d9a-0",
+        "165303165128736d9a-1",
+        "165303165128736d9a-2"
+      ],
+      "settings": {
+        "bg_shape_position": "right",
+        "title": "Features",
+        "sub_title": "High Quality Craftmanship",
+        "sub_font": "1",
+        "style_title": "title_13",
+        "ic_tt": "gem",
+        "show_clpr": false,
+        "round": 0,
+        "cat_space": "30",
+        "pos_text": "default",
+        "space": 59,
+        "align_text": "tc",
+        "fs_hd": 32,
+        "fs_txt": 16,
+        "w_img": 130,
+        "layout": "container",
+        "cl_bg": "",
+        "mg": "",
+        "pd": "210px,15px,90px,15px",
+        "mg_mb": "",
+        "pd_mb": "100px,15px,50px,15px"
+      }
+    },
+    "1653052395553ae9a0": {
+      "type": "custom_section",
+      "blocks": {
+        "1653052395056924f4-2": {
+          "type": "text",
+          "settings": {
+            "cont_title": "Meet Our Founders",
+            "text": "<p>Founded by Mark Wolinsky, Owner and President of WETSTYLE, and Mario Muto, renowned for his world-class brand designs, BEMMA is a company dedicated to timeless bathroom elegance. <\/p>\n<p>Mario is now the General Manager and head designer for BEMMA. He has designed products and branding strategies for recognized brands such Pottery Barn, Williams Sonoma and Dorel. <\/p>\n<p>The company’s line of beautiful bath furniture, focused on designer vanities, accessories, and innovative storage solutions, reflects the founders’ commitment to elegant design and enduring construction. <\/p>",
+            "cont_btn_text": "",
+            "cont_btn_link": "",
+            "founder1_name": "Mark Wolinsky",
+            "founder1_sign": "shopify:\/\/shop_images\/Signature_of_Ann_Miller.png",
+            "founder2_name": "Mario Muto",
+            "founder2_sign": "shopify:\/\/shop_images\/Michael-Jordan-personal-autograph.png",
+            "content_align": "left",
+            "cl": "6",
+            "cl_tb": "6",
+            "cl_mb": "12"
+          }
+        },
+        "1653052395056924f4-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/meet-founders.png",
+            "wid": "",
+            "cl": "6",
+            "cl_tb": "6",
+            "cl_mb": "12"
+          }
+        }
+      },
+      "block_order": [
+        "1653052395056924f4-2",
+        "1653052395056924f4-1"
+      ],
+      "settings": {
+        "cus_class": "meet_founder about_help",
+        "layout": "container",
+        "cl_bg": "#ffffff",
+        "mg": "",
+        "pd": "90px,15px,80px,15px",
+        "mg_mb": "",
+        "pd_mb": "10px,15px,50px,15px"
+      }
+    },
+    "165302643579e54168": {
+      "type": "custom_html",
+      "settings": {
+        "code": "<div class=\"row al_center testi_heading\">\n\t<div class=\"col-auto\">\n\t\t<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" width=\"61px\" height=\"54px\">\n\t\t<path fill-rule=\"evenodd\" fill=\"rgb(41, 51, 65)\" d=\"M57.426,49.283 L46.839,49.283 L42.422,53.653 C42.190,53.884 41.885,53.999 41.580,53.999 C41.275,53.999 40.970,53.884 40.738,53.653 L36.321,49.283 L25.734,49.283 C23.764,49.283 22.160,47.696 22.160,45.746 L22.160,45.409 L20.262,47.287 C20.030,47.517 19.725,47.632 19.420,47.632 C19.115,47.632 18.810,47.517 18.577,47.287 L14.161,42.916 L3.574,42.916 C1.603,42.916 0.000,41.329 0.000,39.379 L0.000,17.685 C0.000,15.734 1.603,14.147 3.574,14.147 L11.080,14.147 L11.080,3.536 C11.080,1.586 12.683,-0.001 14.654,-0.001 L46.346,-0.001 C48.316,-0.001 49.920,1.586 49.920,3.536 L49.920,20.515 L57.426,20.515 C59.397,20.515 61.000,22.101 61.000,24.051 L61.000,45.746 C61.000,47.696 59.397,49.283 57.426,49.283 ZM11.080,25.231 L11.080,16.505 L3.574,16.505 C2.917,16.505 2.383,17.035 2.383,17.685 L2.383,39.379 C2.383,40.029 2.917,40.558 3.574,40.558 L14.654,40.558 C14.970,40.558 15.273,40.682 15.497,40.903 L19.420,44.786 L23.343,40.903 C23.566,40.682 23.870,40.558 24.185,40.558 L35.266,40.558 C35.923,40.558 36.457,40.029 36.457,39.379 L36.457,28.768 L35.759,28.768 L31.342,33.139 C31.110,33.368 30.805,33.483 30.500,33.483 C30.195,33.483 29.890,33.368 29.657,33.139 L25.241,28.768 L14.654,28.768 C12.683,28.768 11.080,27.181 11.080,25.231 ZM47.537,3.536 C47.537,2.886 47.003,2.358 46.346,2.358 L14.654,2.358 C13.997,2.358 13.463,2.886 13.463,3.536 L13.463,25.231 C13.463,25.881 13.997,26.409 14.654,26.409 L25.734,26.409 C26.050,26.409 26.353,26.534 26.577,26.755 L30.500,30.637 L34.423,26.755 C34.647,26.534 34.950,26.409 35.266,26.409 L46.346,26.409 C47.003,26.409 47.537,25.881 47.537,25.231 L47.537,3.536 ZM58.617,24.051 C58.617,23.401 58.083,22.872 57.426,22.872 L49.920,22.872 L49.920,25.231 C49.920,27.181 48.316,28.768 46.346,28.768 L38.840,28.768 L38.840,39.379 C38.840,41.329 37.236,42.916 35.266,42.916 L24.679,42.916 L24.543,43.050 L24.543,45.746 C24.543,46.396 25.077,46.925 25.734,46.925 L36.814,46.925 C37.130,46.925 37.433,47.049 37.657,47.270 L41.580,51.152 L45.503,47.270 C45.727,47.049 46.030,46.925 46.346,46.925 L57.426,46.925 C58.083,46.925 58.617,46.396 58.617,45.746 L58.617,24.051 ZM41.580,22.165 L25.266,22.165 C24.608,22.165 24.075,21.637 24.075,20.986 C24.075,20.335 24.608,19.807 25.266,19.807 L41.580,19.807 C42.238,19.807 42.771,20.335 42.771,20.986 C42.771,21.637 42.238,22.165 41.580,22.165 ZM41.580,15.562 C41.267,15.562 40.959,15.436 40.738,15.217 C40.516,14.997 40.389,14.694 40.389,14.384 C40.389,14.074 40.516,13.769 40.738,13.550 C40.959,13.330 41.267,13.204 41.580,13.204 C41.893,13.204 42.201,13.330 42.422,13.550 C42.644,13.769 42.771,14.074 42.771,14.384 C42.771,14.694 42.644,14.997 42.422,15.217 C42.201,15.436 41.893,15.562 41.580,15.562 ZM41.580,8.960 L19.437,8.960 C18.780,8.960 18.246,8.432 18.246,7.781 C18.246,7.129 18.780,6.601 19.437,6.601 L41.580,6.601 C42.238,6.601 42.771,7.129 42.771,7.781 C42.771,8.432 42.238,8.960 41.580,8.960 ZM18.246,14.384 C18.246,13.732 18.780,13.204 19.437,13.204 L35.664,13.204 C36.322,13.204 36.855,13.732 36.855,14.384 C36.855,15.034 36.322,15.562 35.664,15.562 L19.437,15.562 C18.780,15.562 18.246,15.034 18.246,14.384 ZM19.420,19.807 L19.520,19.807 C20.178,19.807 20.711,20.335 20.711,20.986 C20.711,21.637 20.178,22.165 19.520,22.165 L19.420,22.165 C18.762,22.165 18.228,21.637 18.228,20.986 C18.228,20.335 18.762,19.807 19.420,19.807 Z\"><\/path>\n\t\t<\/svg>\n\t<\/div>\n\t<div class=\"col\">\n\t\t<h4 class=\"title\">52.910 + HAPPY CUSTOMERS<\/h4>\n\t\t<p class=\"sub-title\">What customers are saying about us<\/p>\n\t<\/div>\n<\/div>",
+        "css": "#shopify-section-[id] .title {\n    font-size: 16px;\n    line-height: 24px;\n    margin-top: 0;\n    margin-bottom: 2px;\n    letter-spacing: .17em;\n}\n#shopify-section-[id] .sub-title {\n    font-size: 35px;\n    line-height: 40px;\n    font-weight: 300;\n    margin-bottom: 0;    \n    color: #293341;\n    font-style: normal;\n}\n\n@media screen and (max-width: 767px) {\n#shopify-section-[id] .sub-title {\n    font-size: 32px;\n}\n}",
+        "layout": "container",
+        "mg": "95px,,95px,",
+        "pd": "",
+        "mg_mb": "50px,,15px,",
+        "pd_mb": ""
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "452d30dd-aed4-4621-844c-0745f5ad0e65": {
+          "type": "quote",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/client1.webp",
+            "content": "<p>Really good design\/documentation, pretty much everything is nicely setup. Support team is very responsive to problems. Highly recommended to everyone! I’m your fan already<\/p>",
+            "title": "ARTHUR QUINN",
+            "pos": "CEO \/ Letters Inc",
+            "rating": 0
+          }
+        },
+        "f6084fbc-d44d-477f-95b5-8d51154d189e": {
+          "type": "quote",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/client2.webp",
+            "content": "<p>What an amazing theme and customer support!!! I knew I chose well with you, guys!! I am not a developer, I just adjust things I can manage, but everything was so easy customizing the theme.<\/p>",
+            "title": "ANNIE TORRES",
+            "pos": "Co-Founder \/ April Inc",
+            "rating": 0
+          }
+        },
+        "7843165c-27cb-4d3a-8617-f49b30f074b6": {
+          "type": "quote",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/client3.webp",
+            "content": "<p>Octopus templates are awesome and very contemporary. They are super sleek and fast. The best is the customer support. Usually response is less than 30 minutes. Love it.<\/p>",
+            "title": "CHESTER HANSEN",
+            "pos": "VP of Product \/ Local Inc",
+            "rating": 0
+          }
+        }
+      },
+      "block_order": [
+        "452d30dd-aed4-4621-844c-0745f5ad0e65",
+        "f6084fbc-d44d-477f-95b5-8d51154d189e",
+        "7843165c-27cb-4d3a-8617-f49b30f074b6"
+      ],
+      "settings": {
+        "title": "",
+        "sub_title": "",
+        "sub_font": "2",
+        "style_title": "title_1",
+        "ic_tt": "gem",
+        "show_clpr": false,
+        "layout_des": "1",
+        "ter_des": "4",
+        "col_pr": "4",
+        "col_pr_tb": "6",
+        "loop": false,
+        "au_time": 0,
+        "au_hover": true,
+        "button": false,
+        "btn_vi": "1",
+        "btn_owl": "1",
+        "btn_color": "0",
+        "dot": false,
+        "dot_owl": "2",
+        "dot_color": "1",
+        "use_pr": false,
+        "layout": "container",
+        "cl_bg": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,35px,",
+        "pd_mb": ""
+      }
+    },
+    "1653027360fddd3d4a": {
+      "type": "custom_section",
+      "blocks": {
+        "b2c0c1de-0a6d-457a-b0a7-334082f02201": {
+          "type": "heading",
+          "settings": {
+            "title": "How Can We Be Of Help?",
+            "sub_title": "",
+            "sub_font": "2",
+            "style_title": "title_1",
+            "ic_tt": "gem",
+            "show_clpr": false
+          }
+        },
+        "1653027360ca5f4717-2": {
+          "type": "text",
+          "settings": {
+            "cont_title": "",
+            "text": "Simply dummy text of the printing and typesetting industry. is simply dummy text of the printing and typesetting industry. is simply dummy text of the printing and typesetting industry. is simply dummy text of the printing and typesetting industry. is simply dummy text of the printing and typesetting industry. is simply dummy text of the printing and typesetting industry. is simply dummy text of the printing and typesetting industry. is simply dummy text of the printing and typesetting industry. is simply dummy text of the printing and typesetting industry. is simply dummy text of the printing. is simply dummy text of the printing and typesetting industry. is simply dummy text of the printing and typesetting industry, typesetting industry and typesetting industry.",
+            "cont_btn_text": "Shop Now",
+            "cont_btn_link": "",
+            "founder1_name": "",
+            "founder2_name": "",
+            "content_align": "left",
+            "cl": "8",
+            "cl_tb": "8",
+            "cl_mb": "12"
+          }
+        },
+        "50f5c9e2-b95c-447e-b300-d727d11ecab1": {
+          "type": "btn",
+          "settings": {
+            "title": "Contact Us",
+            "btn_link": "shopify:\/\/pages\/contact-us",
+            "open_link": "_self",
+            "btn_w": false,
+            "btn_round": false,
+            "btn_icon": false,
+            "cl_txt": "#000000",
+            "cl_bg": "#b99450",
+            "cl_bd": "#b99450",
+            "fw_text": 600,
+            "h": 45,
+            "cl": "4",
+            "cl_tb": "4",
+            "cl_mb": "12"
+          }
+        }
+      },
+      "block_order": [
+        "b2c0c1de-0a6d-457a-b0a7-334082f02201",
+        "1653027360ca5f4717-2",
+        "50f5c9e2-b95c-447e-b300-d727d11ecab1"
+      ],
+      "settings": {
+        "cus_class": "about_help",
+        "layout": "container",
+        "cl_bg": "#ffffff",
+        "mg": "",
+        "pd": "70px,15px,100px,15px",
+        "mg_mb": "",
+        "pd_mb": "50px,15px,60px,15px"
+      }
+    },
+    "165302581092e69d53": {
+      "type": "image_text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about-culture.png",
+        "img_align": "top",
+        "img_position": "1",
+        "image_ratio": "auto",
+        "text_size2": "30,14",
+        "title": "Our Culture",
+        "text": "<p>Mideast inspiration with multidimentional appeal in graphite finish alongside beveled edges will make a striking statement with any design motif.<\/p>",
+        "button_label": "Join Our Team",
+        "button_link": "#",
+        "open_link": "_self",
+        "txt_align": "tl",
+        "use_shadow": false,
+        "cl_txt": "light",
+        "layout": "nt_full",
+        "mg": "",
+        "pd": "100px,,70px,",
+        "mg_mb": "",
+        "pd_mb": "60px,,60px,"
+      }
+    },
+    "1654698706c91b5784": {
+      "type": "instagram_feed3",
+      "blocks": {
+        "1654698706b50d141b-0": {
+          "type": "1",
+          "settings": {
+            "title": "FOLLOW EVERYTHING BEMMA",
+            "sub_title": "Stay up-to-date with the latest trends by following us on our socials",
+            "sub_font": "2",
+            "style_title": "title_13",
+            "ic_tt": "gem",
+            "show_clpr": false
+          }
+        }
+      },
+      "block_order": [
+        "1654698706b50d141b-0"
+      ],
+      "settings": {
+        "bg_shape": "shopify:\/\/shop_images\/bemma_floral-2.png",
+        "bg_shape_position": "left",
+        "limit": 12,
+        "open_link": "_blank",
+        "layout_des": "2",
+        "space": "0",
+        "rounded_ins": "0",
+        "col_pr": "3",
+        "col_pr_tb": "3",
+        "col_pr_mb": "6",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "button": true,
+        "btn_vi": "1",
+        "btn_owl": "1",
+        "btn_color": "0",
+        "dot": false,
+        "dot_owl": "1",
+        "dot_color": "1",
+        "image_ratio": "ratio1_1",
+        "image_size": "nt_cover",
+        "image_position": "8",
+        "layout": "nt_full",
+        "cl_bg": "#fff",
+        "mg": "50px,,50px,",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    }
+  },
+  "order": [
+    "heading",
+    "1653057681ffba2032",
+    "1653048411c24b237e",
+    "1653031651954d0fa7",
+    "1653052395553ae9a0",
+    "165302643579e54168",
+    "testimonials",
+    "1653027360fddd3d4a",
+    "165302581092e69d53",
+    "1654698706c91b5784"
+  ]
+}

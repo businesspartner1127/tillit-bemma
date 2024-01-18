@@ -1,0 +1,452 @@
+/*-----------------------------------------------------------------------------/
+/ Custom Theme CSS
+/-----------------------------------------------------------------------------*/
+/*---------------- Global Custom CSS -------------------*/
+{{settings.global_css }}
+
+/*---------------- Custom CSS for only desktop -------------------*/
+@media (min-width: 1025px) {
+  {{settings.desktop_css }}
+}
+
+/*---------------- Custom CSS for tablet, mobile -------------------*/
+@media (max-width: 1024px) {
+  {{settings.tablet_mobile_css }}
+}
+
+/*---------------- Custom CSS for only tablet -------------------*/
+@media (min-width: 750px) and (max-width: 1024px) {
+  {{settings.tablet_css }}
+}
+
+/*---------------- Custom CSS for only mobile -------------------*/
+@media (max-width: 767px){
+  {{settings.mobile_css }}
+}
+
+body {
+  color: var(--color-dark-tile);
+  line-height: 1.22;
+}
+
+.font-bold {
+  font-weight: 600;
+}
+
+h1, .h1 {
+  color: inherit;
+  font-size: 42px;
+  font-weight: 400;
+}
+
+h2, .h2 {
+  color: inherit;
+  font-size: 38px;
+  font-weight: 400;
+}
+
+h3, .h3 {
+  color: inherit;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+h4, .h4 {
+  color: inherit;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+h5, .h5 {
+  color: inherit;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+h6, .h6 {
+  color: inherit;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.22;
+}
+
+.h7 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+/* Page head */
+.page-head {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.page-head h1 {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.23;
+}
+
+@media screen and (min-width: 750px) {
+  .page-head h1 {
+    font-size: 38px;
+  }
+
+  .page-head {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+li {
+  line-height: 1.5;
+}
+
+/*  Button */
+a.button, button, input[type=submit] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+button,
+.button {
+  background-color: var(--color-dark-tile);
+  border-color: var(--color-dark-tile);
+  color: var(--color-white);
+  cursor: pointer;
+  border-radius: 0;
+  min-height: 45px;
+  font-size: 16px;
+  line-height: 1.22;
+  text-transform: capitalize;
+  border: 2px solid transparent;
+}
+
+button:hover {
+  background-color: var(--color-dark-tile);
+  border-color: var(--color-dark-tile);
+  color: var(--color-white);
+  opacity: 0.85;
+}
+
+.button--primary {
+  background-color: var(--color-gold);
+  color: var(--color-black);
+}
+
+.button--primary:hover {
+  background-color: var(--color-gold);
+  border-color: var(--color-gold);
+  color: var(--color-black)
+}
+
+.button--secondary {
+  background-color: var(--color-dark-tile);
+  color: var(--color-white);
+}
+
+.button--outlined {
+  background-color: var(--color-white);
+  color: var(--color-dark-tile);
+  border-color: var(--color-dark-tile);
+}
+
+.button.disabled,
+.button[disabled] {
+  background-color: var(--color-warm-grey);
+  color: var(--color-black);
+  cursor: not-allowed;
+}
+
+
+/* Section styles */
+.section__heading {
+  color: var(--color-primary-grey);
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.22;
+}
+
+.section__desc {
+  font-weight: 600;
+  line-height: 1.22;
+  margin-top: 10px;
+}
+
+.section__content {
+  margin-top: 30px;
+}
+
+/* Product Item */
+.pr_grid_item {
+  text-align: center;
+}
+
+.nt_pr .product-info .price {
+  margin-top: 6px;
+  margin-bottom: 11px;
+}
+/* Product Item Hover button */
+.hover_button.des_btns_pr_1 .nt_add_qv>span,
+.hover_button.des_btns_pr_1 .pr_atc>span {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.cat_sortby>a {
+  border-radius: 0;
+  color: var(--color-dark-grey);
+  padding: 13px 7px 13px 15px;
+}
+
+.page-numbers li a:hover,
+.page-numbers.current {
+  color: var(--color-gold);
+}
+
+@media screen and (min-width: 750px) {
+  .product-title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.22;
+  }
+}
+
+/* Filter sidebar  */
+.widget h5.widget-title {
+  padding-bottom: 12px;
+  margin-bottom: 18px;
+}
+
+.widget h5.widget-title:after {
+  background-color: var(--color-warm-grey);
+  height: 1px;
+  width: 166px;
+  bottom: 0;
+}
+
+ul.nt_filter_styleck>li>a:before {
+  width: 23px;
+  height: 23px;
+  border-radius: 0;
+  border-color: var(--color-dark-tile);
+}
+
+.widget_product_categories li.current-cat>a {
+  color: var(--color-dark-tile);
+  font-weight: 600;
+}
+
+.nt_ajaxFilter ul li, .widget_product_categories ul>li {
+  margin-bottom: 15px;
+}
+
+/* PDP */
+.id_pr_description {
+  background-color: #CBC6C10a;
+}
+
+/* Global Sections */
+.section-title {
+  color: var(--color-dark-tile);
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.section-subtitle {
+  color: var(--color-dark-tile);
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.5;
+  margin-bottom: 32px;
+}
+
+.wrap_title--secondary {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.wrap_title--secondary::before {
+  content: "";
+  background: url(section-logo.svg) no-repeat #fff;
+  background-size: 100% auto;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%);
+  display: block;
+  width: 65px;
+  height: 60px;
+}
+.wrap_title--secondary::after {
+  content: '';
+  width: 195px;
+  height: 1px;
+  background: #B99450;
+  position: absolute;
+  top: calc(100% + 27px);
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.wrap_title .section-title {
+}
+
+.id_product-recommendations {
+  position: relative;
+  background: url(floral.png) no-repeat top 0 left 0px;
+  background-size: contain;
+}
+
+/* Quick view */
+.quick-view__content {
+  padding-top: 2rem;
+  padding-bottom: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.quick-view__content .summary-inner {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.quick-view__image {
+  padding-top: 250px;
+}
+
+.quick-view__btns {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.quick-view__btns .button {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  min-width: 293px;
+  text-align: center;
+}
+
+@media screen and (min-width: 750px) {
+  .quick-view__content {
+    padding-top: 2.75rem;
+    padding-bottom: 3.5625rem;
+    padding-right: 2.5rem;
+  }
+
+  .quick-view__image {
+    padding-top: 31rem;
+  }
+}
+
+/* Cat shop */
+@media screen and (min-width: 1025px) {
+  .cat-shop {
+    display: none;
+  }
+}
+
+/* Blog Template */
+.blog-template {
+  background: url("{{'bemma_floral.png' | asset_img_url: 'master'}}") no-repeat;
+  background-position: bottom -22px right 0px;
+  background-size: 580px;
+}
+
+/* Article Template */
+.article-template {
+  background: url("{{'bemma_floral.png' | asset_img_url: 'master'}}") no-repeat;
+  background-position: top 30% right 0px;
+  background-size: 580px;
+}
+
+/* .article-title */
+.widget .post_list_widget .article-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.nt_single_blog {
+  max-width: 763px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nt_single_blog img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.nt_single_blog iframe {
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  height: 180px;
+}
+
+@media screen and (min-width: 750px) {
+  .nt_single_blog iframe {
+    height: 412px;
+  }
+}
+
+/* PDP samples */
+.product-samples-widget {
+  display: none;
+}
+
+.template-product .product-samples-widget {
+  display: block;
+}
+
+/* Find Store Page */
+.logo-head {
+  padding-top: 60px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #CBC6C1;
+  margin-bottom: 25px;
+}
+
+.logo-head svg {
+  margin-left: -20px;
+}
+
+.logo-title {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+/** Colors **/
+.bg_color_greywash {
+  background-color: #89817a;
+}
+
+.bg_color_walnut {
+  background-color: #673e28;
+}
+
+.bg_color_brushed-nickel {
+  background-color: #d5d0c8;
+}
+
+.bg_color_matte-black {
+  background-color: #2b2a2c;
+}
+
+.bg_color_satin-brass {
+  background-color: #cfac7b;
+}
+
+.bg_color_light-oak {
+  background-color: #766456;
+}

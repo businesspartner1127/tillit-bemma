@@ -1,0 +1,171 @@
+{
+  "sections": {
+    "heading": {
+      "type": "page_standard_heading",
+      "blocks": {
+        "89e05fb7-70a4-41a8-9a52-172da4cb3f48": {
+          "type": "1",
+          "settings": {
+            "title": "#bemmagallery",
+            "color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "89e05fb7-70a4-41a8-9a52-172da4cb3f48"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/gallery-banner.png",
+        "bg_height": "small",
+        "parallax": false,
+        "color": "#000000",
+        "overlay": 0,
+        "padding": 33,
+        "paddingmb": 20,
+        "bg_pos": "center center",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover",
+        "bg_att": "scroll"
+      }
+    },
+    "165489157469d9f80c": {
+      "type": "custom_html",
+      "settings": {
+        "code": "<div class=\"yotpo yotpo-pictures-widget\" data-gallery-id=\"62a39d9d5a8466001d897eb6\"><\/div>",
+        "css": "#shopify-section-[id] {background-color:transparent}",
+        "layout": "container",
+        "mg": "50px,,50px,",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    },
+    "shop_the_look": {
+      "type": "instagram_shop",
+      "blocks": {
+        "fb87dff2-a284-4d2e-99cb-f44f248fd868": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/look1.png",
+            "url": ""
+          }
+        },
+        "3ed68336-dd60-42c2-ae61-3414a7d72070": {
+          "type": "pin",
+          "settings": {
+            "pos_t": 19,
+            "pos_l": 22,
+            "cl_pin": "dark",
+            "product": "terra-30-vanity"
+          }
+        },
+        "bc573e72-1f81-4bc1-982b-327073e8d10d": {
+          "type": "pin",
+          "settings": {
+            "pos_t": 19,
+            "pos_l": 81,
+            "cl_pin": "dark",
+            "product": "terra-24-vanity-4"
+          }
+        },
+        "41fed09a-8fb1-42bf-b6d1-06e5d964e0e6": {
+          "type": "pin",
+          "settings": {
+            "pos_t": 69,
+            "pos_l": 81,
+            "cl_pin": "dark",
+            "product": "gracie-20-vanity"
+          }
+        },
+        "0767eec3-d1b2-4d4f-9436-8e68c45c9afa": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/look2.png",
+            "url": ""
+          }
+        },
+        "580bd506-b9ee-4070-86a6-84b1ae9ce9be": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/look3.png",
+            "url": ""
+          }
+        },
+        "6a022d08-4418-4135-b48a-0e86a713c829": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Accessories-collection_0e678fbd-66f8-4bc4-a986-a810263f05d5.png",
+            "url": ""
+          }
+        },
+        "52c4c98a-0205-40f5-b3d2-97d1f7d7fc6f": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/post-img1.png",
+            "url": ""
+          }
+        },
+        "685bddc3-d792-4d1d-b997-222060d490e9": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/post-img3.png",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "fb87dff2-a284-4d2e-99cb-f44f248fd868",
+        "3ed68336-dd60-42c2-ae61-3414a7d72070",
+        "bc573e72-1f81-4bc1-982b-327073e8d10d",
+        "41fed09a-8fb1-42bf-b6d1-06e5d964e0e6",
+        "0767eec3-d1b2-4d4f-9436-8e68c45c9afa",
+        "580bd506-b9ee-4070-86a6-84b1ae9ce9be",
+        "6a022d08-4418-4135-b48a-0e86a713c829",
+        "52c4c98a-0205-40f5-b3d2-97d1f7d7fc6f",
+        "685bddc3-d792-4d1d-b997-222060d490e9"
+      ],
+      "settings": {
+        "bg_shape_position": "right",
+        "title": "Shop the Design",
+        "sub_title": "Get the products you love in our images below",
+        "sub_font": "1",
+        "style_title": "title_13",
+        "ic_tt": "gem",
+        "show_clpr": false,
+        "layout_des": "2",
+        "open_link": "_self",
+        "space": "10",
+        "rounded_ins": "0",
+        "col_pr": "3",
+        "col_pr_tb": "4",
+        "col_pr_mb": "12",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "button": true,
+        "btn_vi": "1",
+        "btn_owl": "1",
+        "btn_color": "0",
+        "dot": false,
+        "dot_owl": "1",
+        "dot_color": "1",
+        "use_eq_height": true,
+        "image_ratio": "ratio1_1",
+        "image_size": "nt_cover",
+        "image_position": "8",
+        "cp_code": false,
+        "layout": "container",
+        "cl_bg": "#ffffff",
+        "mg": "50px,,90px,",
+        "pd": "",
+        "mg_mb": "50px,,90px,",
+        "pd_mb": ""
+      }
+    }
+  },
+  "order": [
+    "heading",
+    "165489157469d9f80c",
+    "shop_the_look"
+  ]
+}

@@ -1,0 +1,12 @@
+/* Faq Page */
+.type_faq .container {
+  margin-top: 25px;
+  margin-bottom: 80px;
+}
+
+@media screen and (min-width: 750px) {
+  .type_faq .container {
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }    
+}

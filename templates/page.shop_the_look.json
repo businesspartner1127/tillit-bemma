@@ -1,0 +1,187 @@
+{
+  "sections": {
+    "heading": {
+      "type": "page_standard_heading",
+      "blocks": {
+        "e3ce41fa-ec9f-434a-bd97-6b56c5841027": {
+          "type": "1",
+          "settings": {
+            "title": "Shop The Look",
+            "color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "e3ce41fa-ec9f-434a-bd97-6b56c5841027"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/shop-the-look-banner.png",
+        "bg_height": "small",
+        "parallax": false,
+        "color": "#000000",
+        "overlay": 0,
+        "padding": 33,
+        "paddingmb": 20,
+        "bg_pos": "center center",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover",
+        "bg_att": "scroll"
+      }
+    },
+    "16546237356f7f68a7": {
+      "type": "lookbook_packery",
+      "blocks": {
+        "16546237350055f3cb-0": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/look1.png",
+            "col_pr": "3",
+            "col_pr_tb": "6",
+            "col_pr_mb": "12"
+          }
+        },
+        "dbceff17-6879-457c-8850-b773c12d163d": {
+          "type": "pr",
+          "settings": {
+            "pos_t": 20,
+            "pos_l": 27,
+            "type": "1",
+            "shorttxt": "$59",
+            "pos_pin": "right",
+            "pos_size": "small",
+            "effect": "fade",
+            "bg_cl": "#b99450",
+            "product": "terra-24-vanity-4"
+          }
+        },
+        "16546237350055f3cb-1": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/post-img1.png",
+            "col_pr": "3",
+            "col_pr_tb": "6",
+            "col_pr_mb": "12"
+          }
+        },
+        "16546237350055f3cb-2": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Accessories-collection_0e678fbd-66f8-4bc4-a986-a810263f05d5.png",
+            "col_pr": "6",
+            "col_pr_tb": "6",
+            "col_pr_mb": "12"
+          }
+        },
+        "16546237350055f3cb-3": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/look2.png",
+            "col_pr": "3",
+            "col_pr_tb": "6",
+            "col_pr_mb": "12"
+          }
+        },
+        "16546237350055f3cb-4": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/post-img3.png",
+            "col_pr": "3",
+            "col_pr_tb": "6",
+            "col_pr_mb": "12"
+          }
+        },
+        "1353b15e-ed7e-45a7-af8e-432a03351a9a": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about-banner.png",
+            "col_pr": "12",
+            "col_pr_tb": "12",
+            "col_pr_mb": "12"
+          }
+        }
+      },
+      "block_order": [
+        "16546237350055f3cb-0",
+        "dbceff17-6879-457c-8850-b773c12d163d",
+        "16546237350055f3cb-1",
+        "16546237350055f3cb-2",
+        "16546237350055f3cb-3",
+        "16546237350055f3cb-4",
+        "1353b15e-ed7e-45a7-af8e-432a03351a9a"
+      ],
+      "settings": {
+        "title": "Shop the Look",
+        "sub_title": "Get the Products you see in the image",
+        "sub_font": "1",
+        "style_title": "title_13",
+        "ic_tt": "gem",
+        "show_clpr": false,
+        "space": "6",
+        "use_eq_height": false,
+        "image_ratio": "ratio1_1",
+        "image_size": "nt_cover",
+        "image_position": "8",
+        "cp_code": false,
+        "layout": "container",
+        "mg": "90px,,90px,",
+        "pd": "",
+        "mg_mb": "90px,,90px,",
+        "pd_mb": ""
+      }
+    },
+    "1654716334ca7c48db": {
+      "type": "featured_collection_owl",
+      "settings": {
+        "bg_shape_position": "right",
+        "title": "Shop Featured Products",
+        "sub_title": "Get our most popular best-sellers",
+        "sub_font": "1",
+        "btn_title": "",
+        "style_title": "title_13",
+        "ic_tt": "gem",
+        "show_clpr": false,
+        "collection": "terra",
+        "limit": 8,
+        "space": 30,
+        "use_pagination": "none",
+        "btn_rd": true,
+        "btn_icon": false,
+        "btn_style": "default",
+        "col_pr": "3",
+        "col_pr_tb": "6",
+        "col_pr_mb": "12",
+        "pr_des": "1",
+        "show_vendor": false,
+        "use_cdt": false,
+        "round_cd": false,
+        "cdt_des": "1",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "button": true,
+        "btn_vi": "1",
+        "btn_owl": "1",
+        "btn_color": "0",
+        "dot": false,
+        "dot_owl": "1",
+        "dot_color": "1",
+        "use_eq_height": true,
+        "image_ratio": "ratio1_1",
+        "image_size": "nt_cover",
+        "image_position": "8",
+        "cp_code": false,
+        "layout": "container",
+        "cl_bg": "",
+        "mg": "50px,,90px,",
+        "pd": "",
+        "mg_mb": "50px,,90px,",
+        "pd_mb": ""
+      }
+    }
+  },
+  "order": [
+    "heading",
+    "16546237356f7f68a7",
+    "1654716334ca7c48db"
+  ]
+}

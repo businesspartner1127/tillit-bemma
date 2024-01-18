@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="logo-head">
+    {%- render 'logo_svg' -%}
+  </div>
+
+  <div class="logo-title">
+    {{- section.settings.title -}}
+  </div>
+</div>
+
+{%- schema -%}
+  {
+    "name": "Logo heading",
+    "class": "logo_heading",
+    "settings": [
+      {
+        "type":"text",
+        "id":"title",
+        "label":"Heading",
+        "default":"Find our Stores"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Logo heading",
+        "category": "Image"
+      }
+    ]
+  }
+{% endschema %}

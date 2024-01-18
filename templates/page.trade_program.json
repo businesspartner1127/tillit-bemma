@@ -1,0 +1,442 @@
+{
+  "sections": {
+    "heading": {
+      "type": "about_heading",
+      "blocks": {
+        "39a33984-b9da-413b-b82d-0749581841a8": {
+          "type": "1",
+          "settings": {
+            "title": "Trade Program",
+            "color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "39a33984-b9da-413b-b82d-0749581841a8"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/trade-back.png",
+        "bg_height": "big",
+        "parallax": false,
+        "color": "#000000",
+        "overlay": 0,
+        "padding": 33,
+        "paddingmb": 20,
+        "bg_pos": "center center",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover",
+        "bg_att": "scroll"
+      }
+    },
+    "1653057681ffba2032": {
+      "type": "custom_section",
+      "blocks": {
+        "1653057680313293c7-2": {
+          "type": "text",
+          "settings": {
+            "cont_title": "Are you a Professional?",
+            "text": "Find solutions for projects of every size and scale, from residential homes to large-scale\ncommercial spaces.",
+            "cont_btn_text": "Tell us about your project",
+            "cont_btn_link": "shopify:\/\/pages\/contact-us",
+            "founder1_name": "",
+            "founder2_name": "",
+            "content_align": "left",
+            "cl": "6",
+            "cl_tb": "6",
+            "cl_mb": "12"
+          }
+        },
+        "f7237a8b-2c5c-4002-b4c1-4312f418125a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/trade-img1.png",
+            "wid": "",
+            "cl": "6",
+            "cl_tb": "6",
+            "cl_mb": "12"
+          }
+        }
+      },
+      "block_order": [
+        "1653057680313293c7-2",
+        "f7237a8b-2c5c-4002-b4c1-4312f418125a"
+      ],
+      "settings": {
+        "cus_class": "about_story about_mission about_help",
+        "layout": "container",
+        "cl_bg": "#ffffff",
+        "mg": "",
+        "pd": "110px,15px,50px,15px",
+        "mg_mb": "",
+        "pd_mb": "42px,15px,39px,15px"
+      }
+    },
+    "1653031651954d0fa7": {
+      "type": "feature_columns2",
+      "blocks": {
+        "165303165128736d9a-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/handcraft.png",
+            "title": "Opportunity",
+            "text": "<p>Unique and compelling selection of pieces for its trendy, design-<br\/>focused, customers<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_style": "1",
+            "col_pr": "4",
+            "col_pr_tb": "4",
+            "col_pr_mb": "12"
+          }
+        },
+        "165303165128736d9a-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/idea.png",
+            "title": "Pricing",
+            "text": "<p>Exclusive trade pricing and promotions on all our items<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_style": "1",
+            "col_pr": "4",
+            "col_pr_tb": "4",
+            "col_pr_mb": "12"
+          }
+        },
+        "165303165128736d9a-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/services.png",
+            "title": "Services",
+            "text": "<p>From sourcing to design, Bemma provides a full-service partnership <br\/>for any project<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_style": "1",
+            "col_pr": "4",
+            "col_pr_tb": "4",
+            "col_pr_mb": "12"
+          }
+        }
+      },
+      "block_order": [
+        "165303165128736d9a-0",
+        "165303165128736d9a-1",
+        "165303165128736d9a-2"
+      ],
+      "settings": {
+        "bg_shape_position": "right",
+        "title": "Trade Program Benefits",
+        "sub_title": "",
+        "sub_font": "1",
+        "style_title": "title_13",
+        "ic_tt": "gem",
+        "show_clpr": false,
+        "round": 0,
+        "cat_space": "30",
+        "pos_text": "default",
+        "space": 59,
+        "align_text": "tc",
+        "fs_hd": 32,
+        "fs_txt": 16,
+        "w_img": 130,
+        "layout": "container",
+        "cl_bg": "",
+        "mg": "",
+        "pd": "210px,15px,90px,15px",
+        "mg_mb": "",
+        "pd_mb": "100px,15px,50px,15px"
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "disabled": true,
+      "blocks": {
+        "452d30dd-aed4-4621-844c-0745f5ad0e65": {
+          "type": "quote",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/client1.webp",
+            "content": "<p>Really good design\/documentation, pretty much everything is nicely setup. Support team is very responsive to problems. Highly recommended to everyone! I’m your fan already<\/p>",
+            "title": "ARTHUR QUINN",
+            "pos": "CEO \/ Letters Inc",
+            "rating": 0
+          }
+        },
+        "f6084fbc-d44d-477f-95b5-8d51154d189e": {
+          "type": "quote",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/client2.webp",
+            "content": "<p>What an amazing theme and customer support!!! I knew I chose well with you, guys!! I am not a developer, I just adjust things I can manage, but everything was so easy customizing the theme.<\/p>",
+            "title": "ANNIE TORRES",
+            "pos": "Co-Founder \/ April Inc",
+            "rating": 0
+          }
+        },
+        "7843165c-27cb-4d3a-8617-f49b30f074b6": {
+          "type": "quote",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/client3.webp",
+            "content": "<p>Octopus templates are awesome and very contemporary. They are super sleek and fast. The best is the customer support. Usually response is less than 30 minutes. Love it.<\/p>",
+            "title": "CHESTER HANSEN",
+            "pos": "VP of Product \/ Local Inc",
+            "rating": 0
+          }
+        }
+      },
+      "block_order": [
+        "452d30dd-aed4-4621-844c-0745f5ad0e65",
+        "f6084fbc-d44d-477f-95b5-8d51154d189e",
+        "7843165c-27cb-4d3a-8617-f49b30f074b6"
+      ],
+      "settings": {
+        "title": "",
+        "sub_title": "",
+        "sub_font": "2",
+        "style_title": "title_1",
+        "ic_tt": "gem",
+        "show_clpr": false,
+        "layout_des": "1",
+        "ter_des": "4",
+        "col_pr": "4",
+        "col_pr_tb": "6",
+        "loop": false,
+        "au_time": 0,
+        "au_hover": true,
+        "button": false,
+        "btn_vi": "1",
+        "btn_owl": "1",
+        "btn_color": "0",
+        "dot": false,
+        "dot_owl": "2",
+        "dot_color": "1",
+        "use_pr": false,
+        "layout": "container",
+        "cl_bg": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,35px,",
+        "pd_mb": ""
+      }
+    },
+    "1653052395553ae9a0": {
+      "type": "custom_section",
+      "blocks": {
+        "1653052395056924f4-2": {
+          "type": "text",
+          "settings": {
+            "cont_title": "Product Resource Guide",
+            "text": "<p>Download our Product Resource Guide to discover our collections and learn more about customization opportunities.<\/p>",
+            "cont_btn_text": "Download Now",
+            "cont_btn_link": "shopify:\/\/pages\/styleguide",
+            "founder1_name": "",
+            "founder2_name": "",
+            "content_align": "left",
+            "cl": "6",
+            "cl_tb": "6",
+            "cl_mb": "12"
+          }
+        },
+        "1653052395056924f4-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/trade-img2.png",
+            "wid": "",
+            "cl": "6",
+            "cl_tb": "6",
+            "cl_mb": "12"
+          }
+        }
+      },
+      "block_order": [
+        "1653052395056924f4-2",
+        "1653052395056924f4-1"
+      ],
+      "settings": {
+        "cus_class": "meet_founder about_help",
+        "layout": "container",
+        "cl_bg": "#ffffff",
+        "mg": "",
+        "pd": "90px,15px,80px,15px",
+        "mg_mb": "",
+        "pd_mb": "10px,15px,50px,15px"
+      }
+    },
+    "1653027360fddd3d4a": {
+      "type": "custom_section",
+      "disabled": true,
+      "blocks": {
+        "b2c0c1de-0a6d-457a-b0a7-334082f02201": {
+          "type": "heading",
+          "settings": {
+            "title": "Product Resource Guide",
+            "sub_title": "",
+            "sub_font": "2",
+            "style_title": "title_1",
+            "ic_tt": "gem",
+            "show_clpr": false
+          }
+        },
+        "1653027360ca5f4717-2": {
+          "type": "text",
+          "settings": {
+            "cont_title": "",
+            "text": "Download our Product Resource Guide to discover our collections and learn more about customization opportunities.",
+            "cont_btn_text": "Shop Now",
+            "cont_btn_link": "",
+            "founder1_name": "",
+            "founder2_name": "",
+            "content_align": "left",
+            "cl": "8",
+            "cl_tb": "8",
+            "cl_mb": "12"
+          }
+        },
+        "50f5c9e2-b95c-447e-b300-d727d11ecab1": {
+          "type": "btn",
+          "settings": {
+            "title": "Download Now",
+            "btn_link": "shopify:\/\/pages\/styleguide",
+            "open_link": "_blank",
+            "btn_w": false,
+            "btn_round": false,
+            "btn_icon": false,
+            "cl_txt": "#000000",
+            "cl_bg": "#b99450",
+            "cl_bd": "#b99450",
+            "fw_text": 600,
+            "h": 45,
+            "cl": "4",
+            "cl_tb": "4",
+            "cl_mb": "12"
+          }
+        }
+      },
+      "block_order": [
+        "b2c0c1de-0a6d-457a-b0a7-334082f02201",
+        "1653027360ca5f4717-2",
+        "50f5c9e2-b95c-447e-b300-d727d11ecab1"
+      ],
+      "settings": {
+        "cus_class": "about_help",
+        "layout": "container",
+        "cl_bg": "#ffffff",
+        "mg": "",
+        "pd": "70px,15px,20px,15px",
+        "mg_mb": "",
+        "pd_mb": "50px,15px,60px,15px"
+      }
+    },
+    "165302581092e69d53": {
+      "type": "image_text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about-culture.png",
+        "img_align": "top",
+        "img_position": "2",
+        "image_ratio": "auto",
+        "text_size2": "30,14",
+        "title": "Explore Our Kit",
+        "text": "<p>Order our sample swatch kit, which includes all of our metal finishes and wood panels.<\/p>",
+        "button_label": "Order your swatch kit",
+        "button_link": "#",
+        "open_link": "_blank",
+        "txt_align": "tl",
+        "use_shadow": false,
+        "cl_txt": "light",
+        "layout": "nt_full",
+        "mg": "",
+        "pd": "100px,,70px,",
+        "mg_mb": "",
+        "pd_mb": "60px,,60px,"
+      }
+    },
+    "1654718852be962fb7": {
+      "type": "image_text",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/terra-30-single-bathroom-vanity-set.png",
+        "img_align": "top",
+        "img_position": "2",
+        "image_ratio": "auto",
+        "text_size2": "30,14",
+        "title": "Product Resource Guide",
+        "text": "<p>Discover our collections and learn more about customization opportunities<\/p>",
+        "button_label": "Download now",
+        "button_link": "",
+        "open_link": "_blank",
+        "txt_align": "tl",
+        "use_shadow": false,
+        "cl_txt": "light",
+        "layout": "nt_full",
+        "mg": "",
+        "pd": "50px,,50px,",
+        "mg_mb": "",
+        "pd_mb": ",,20px,"
+      }
+    },
+    "1654698706c91b5784": {
+      "type": "instagram_feed3",
+      "blocks": {
+        "1654698706b50d141b-0": {
+          "type": "1",
+          "settings": {
+            "title": "FOLLOW EVERYTHING BEMMA",
+            "sub_title": "Stay up-to-date with the latest trends by following us on our socials",
+            "sub_font": "2",
+            "style_title": "title_13",
+            "ic_tt": "gem",
+            "show_clpr": false
+          }
+        }
+      },
+      "block_order": [
+        "1654698706b50d141b-0"
+      ],
+      "settings": {
+        "bg_shape": "shopify:\/\/shop_images\/bemma_floral-2.png",
+        "bg_shape_position": "left",
+        "limit": 12,
+        "open_link": "_blank",
+        "layout_des": "2",
+        "space": "0",
+        "rounded_ins": "0",
+        "col_pr": "3",
+        "col_pr_tb": "3",
+        "col_pr_mb": "6",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "button": true,
+        "btn_vi": "1",
+        "btn_owl": "1",
+        "btn_color": "0",
+        "dot": false,
+        "dot_owl": "1",
+        "dot_color": "1",
+        "image_ratio": "ratio1_1",
+        "image_size": "nt_cover",
+        "image_position": "8",
+        "layout": "nt_full",
+        "cl_bg": "#ffffff",
+        "mg": "50px,,50px,",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    }
+  },
+  "order": [
+    "heading",
+    "1653057681ffba2032",
+    "1653031651954d0fa7",
+    "testimonials",
+    "1653052395553ae9a0",
+    "1653027360fddd3d4a",
+    "165302581092e69d53",
+    "1654718852be962fb7",
+    "1654698706c91b5784"
+  ]
+}

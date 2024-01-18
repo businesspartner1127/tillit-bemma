@@ -1,0 +1,76 @@
+{
+  "sections": {
+    "heading": {
+      "type": "faq_heading",
+      "blocks": {
+        "89b1a94e-2cf5-4075-a6af-0969fbaeae2c": {
+          "type": "1",
+          "settings": {
+            "color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "89b1a94e-2cf5-4075-a6af-0969fbaeae2c"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/bg-faq.jpg",
+        "parallax": false,
+        "color": "#000000",
+        "overlay": 0,
+        "padding": 30,
+        "paddingmb": 20,
+        "bg_pos": "center center",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover",
+        "bg_att": "scroll"
+      }
+    },
+    "main": {
+      "type": "faqs",
+      "blocks": {
+        "30775ba0-8cfd-4213-a09d-d94124284518": {
+          "type": "faq",
+          "settings": {
+            "title": "Lorem ipsum dolor sit amet",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed eros congue, eleifend ipsum vitae, cursus massa. Vivamus imperdiet luctus lorem. <\/p>"
+          }
+        },
+        "1fce2481-c5d0-4347-943a-a46498b1ad91": {
+          "type": "faq",
+          "settings": {
+            "title": "Lorem ipsum dolor sit amet",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed eros congue, eleifend ipsum vitae, cursus massa. Vivamus imperdiet luctus lorem. <\/p>"
+          }
+        },
+        "2ed695b2-1337-4c97-80ef-160425270923": {
+          "type": "faq",
+          "settings": {
+            "title": "Lorem ipsum dolor sit amet",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed eros congue, eleifend ipsum vitae, cursus massa. Vivamus imperdiet luctus lorem. <\/p>"
+          }
+        },
+        "0a59cf47-e6cd-4957-adfc-89eed307ebcf": {
+          "type": "faq",
+          "settings": {
+            "title": "Lorem ipsum dolor sit amet",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed eros congue, eleifend ipsum vitae, cursus massa. Vivamus imperdiet luctus lorem. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "30775ba0-8cfd-4213-a09d-d94124284518",
+        "1fce2481-c5d0-4347-943a-a46498b1ad91",
+        "2ed695b2-1337-4c97-80ef-160425270923",
+        "0a59cf47-e6cd-4957-adfc-89eed307ebcf"
+      ],
+      "settings": {
+        "auto": true
+      }
+    }
+  },
+  "order": [
+    "heading",
+    "main"
+  ]
+}
